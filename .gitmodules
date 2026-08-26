@@ -1,0 +1,8 @@
+[submodule "nvim"]
+	path = nvim
+	url = https://github.com/badr-saud/nvim.git
+	branch = linux
+[submodule "helix"]
+	path = helix
+	url = https://github.com/badr-saud/helix.git
+	branch = linux
