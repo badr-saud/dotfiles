@@ -1,0 +1,175 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "agent_servers": {
+    "claude-acp": {
+      "default_config_options": {
+        "model": "sonnet"
+      },
+      "type": "registry"
+    }
+  },
+  "outline_panel": {
+    "dock": "right",
+  },
+  "collaboration_panel": {
+    "dock": "right",
+  },
+  "agent": {
+    "dock": "left",
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "git_panel": {
+    "dock": "right",
+  },
+  "cli_default_open_behavior": "existing_window",
+  "ssh_connections": [
+    {
+      "host": "badr",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/home/badr"
+          ]
+        },
+        {
+          "paths": [
+            "/home/badr/3d-protfolio"
+          ]
+        },
+        {
+          "paths": [
+            "/home/badr/game"
+          ]
+        },
+        {
+          "paths": [
+            "/home/badr/rag-role-base"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "eb-rag-dev-nd01",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/home/ubuntu"
+          ]
+        },
+        {
+          "paths": [
+            "/home/ubuntu/haystack"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "eb-rag-dev-nd01",
+      "username": "ubuntu",
+      "args": [],
+      "projects": []
+    },
+    {
+      "host": "badr",
+      "username": "badr",
+      "port": 22,
+      "args": [],
+      "projects": []
+    },
+    {
+      "host": "ubuntu",
+      "args": [],
+      "projects": []
+    },
+    {
+      "host": "rag-poc",
+      "args": [],
+      "projects": []
+    },
+    {
+      "host": "10.30.50.132",
+      "username": "ubuntu",
+      "port": 22,
+      "args": [],
+      "projects": []
+    },
+    {
+      "host": "10.30.50.138",
+      "username": "ubuntu",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/home/ubuntu"
+          ]
+        }
+      ]
+    }
+  ],
+  "project_panel": {
+    "default_width": 254.0,
+    "dock": "right",
+  },
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Monospace Icon Theme - Dark",
+    "dark": "Zed (Default)",
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "scrollbar": {
+    "show": "never",
+  },
+  "indent_guides": {
+    "enabled": true,
+    "coloring": "indent_aware",
+  },
+  "git": {
+    "git_gutter": "tracked_files",
+    "inline_blame": {
+      "enabled": true,
+    },
+  },
+  "terminal": {
+    "cursor_shape": "bar",
+  },
+  "tab_bar": {
+    "show": false,
+  },
+  "minimap": {
+    "show": "never",
+  },
+  // "buffer_font_family": "MesloLGM Nerd Font",
+  "ui_font_family": "MartianMono Nerd Font",
+  "buffer_font_family": "MartianMono Nerd Font",
+  "file_types": {
+    "jinja-html": ["*.html"],
+  },
+  "vim_mode": true,
+  //"helix_mode": true,
+  "base_keymap": "VSCode",
+  "ui_font_size": 16,
+  "buffer_font_size": 14.0,
+  "theme": {
+    "mode": "dark",
+    "light": "Gruvbox Light Hard",
+    "dark": "Everforest Blur",
+  },
+
+  // Vim keymaps
+  "vim": {
+    "toggle_relative_line_numbers": true,
+  },
+}
