@@ -6,3 +6,6 @@
 	path = helix
 	url = https://github.com/badr-saud/helix.git
 	branch = linux
+[submodule "kitty"]
+	path = kitty
+	url = https://github.com/badr-saud/kitty.git
