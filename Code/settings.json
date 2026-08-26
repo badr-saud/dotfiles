@@ -1,0 +1,187 @@
+{
+  // ============================================================
+  // VIM (VSCodeVim extension)
+  // ============================================================
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "k",
+        "j"
+      ],
+      "after": [
+        "<ESC>"
+      ]
+    }
+  ],
+  "vim.smartRelativeLine": true,
+  "vim.useSystemClipboard": true,
+  // ============================================================
+  // EDITOR
+  // ============================================================
+  "editor.fontFamily": "MartianMono Nerd Font",
+  // "editor.fontFamily": "'Hasklug nerd font', 'Martianmono nerd font','Droid Sans Mono', 'monospace', monospace",
+  "editor.fontSize": 15,
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  // ------------------------------------------------------------
+  // Language-specific default formatters
+  // ------------------------------------------------------------
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jinja-html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  // ============================================================
+  // WORKBENCH / WINDOW
+  // ============================================================
+  "window.menuStyle": "custom",
+  "window.commandCenter": false,
+  "window.systemColorTheme": "dark",
+  "window.autoDetectColorScheme": false,
+  "window.controlsStyle": "custom",
+  "workbench.statusBar.visible": true,
+  "workbench.sideBar.location": "right",
+  "workbench.editor.showTabs": "none",
+  "workbench.iconTheme": "theme-icon-pack-icon-theme",
+  "workbench.layoutControl.enabled": false,
+  "chat.disableAIFeatures": false,
+  "window.menuBarVisibility": "hidden",
+  "window.customTitleBarVisibility": "auto",
+  "window.titleBarStyle": "custom",
+  "custom-ui-style.electron": {
+    "frame": false,
+    "titleBarStyle": "hidden"
+  },
+  "custom-ui-style.stylesheet": {
+    ".container > .title": {
+      "display": "none !important;"
+    }
+  },
+  // ============================================================
+  // TERMINAL
+  // ============================================================
+  "terminal.integrated.inheritEnv": false,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.commandsToSkipShell": [
+    "matlab.interrupt"
+  ],
+  // ============================================================
+  // TRANSPARENCY / GLASS EFFECT (glassit extension)
+  // ============================================================
+  // "glassit-linux.opacity": 55,
+  "glassit.alpha": 224,
+  // ============================================================
+  // THEME COLOR CUSTOMIZATIONS (glass/transparency palette)
+  // ============================================================
+  "workbench.colorCustomizations": {
+    // Standard status bar at the bottom
+    "statusBar.background": "#1e1e2e80",
+    "statusBar.foreground": "#cdd6f4",
+    // When a folder or workspace is NOT open
+    "statusBar.noFolderBackground": "#11111b80",
+    "statusBar.noFolderForeground": "#a6adc8",
+    // When debugging code (usually turns orange, change it here)
+    "statusBar.debuggingBackground": "#f38ba880",
+    "statusBar.debuggingForeground": "#11111b",
+    // Hover effects on status bar items
+    "statusBarItem.hoverBackground": "#313244",
+    "statusBarItem.activeBackground": "#45475a",
+    // Transparent panes / editor surfaces
+    "terminal.background": "#00000000",
+    "editorPane.background": "#1e1e1e00",
+    "editorGroupHeader.tabsBackground": "#1e1e1e00",
+    "editorGroupHeader.noTabsBackground": "#1e1e1e00",
+    "breadcrumb.background": "#1e1e1e00",
+    "editorGutter.background": "#1e1e1e00",
+    "panel.background": "#1e1e1e00",
+    "panelStickyScroll.background": "#1e1e1e00",
+    "tab.activeBackground": "#1e1e1e00",
+    "tab.unfocusedActiveBackground": "#1e1e1e00",
+    // Semi-opaque surfaces (sidebar, activity bar, editor body)
+    "sideBar.background": "#1e1e1ecc",
+    "sideBarTitle.background": "#1e1e1ecc",
+    "sideBarStickyScroll.background": "#1e1e1ecc",
+    "activityBar.background": "#1e1e1ecc",
+    "editor.background": "#1e1e1ecc",
+    "editorStickyScroll.background": "#1e1e1ecc",
+    "editorStickyScrollGutter.background": "#1e1e1ecc",
+    "tab.inactiveBackground": "#1e1e1ecc",
+    "tab.unfocusedInactiveBackground": "#1e1e1ecc",
+    // Popups / overlays (higher opacity for readability)
+    "inlineChat.background": "#1e1e1ee6",
+    "editorWidget.background": "#1e1e1ee6",
+    "editorHoverWidget.background": "#1e1e1ee6",
+    "editorSuggestWidget.background": "#1e1e1ee6",
+    "notifications.background": "#1e1e1ee6",
+    "notificationCenterHeader.background": "#1e1e1ee6",
+    "menu.background": "#1e1e1ee6",
+    "quickInput.background": "#1e1e1ee6"
+  },
+  // ============================================================
+  // FILES
+  // ============================================================
+  "files.saveConflictResolution": "overwriteFileOnDisk",
+  // ============================================================
+  // LANGUAGE / EXTENSION SPECIFIC
+  // ============================================================
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "redhat.telemetry.enabled": true,
+  "claudeCode.preferredLocation": "panel",
+  // ============================================================
+  // REMOTE - SSH
+  // ============================================================
+  "remote.SSH.remotePlatform": {
+    "badr": "linux",
+    "10.30.50.128": "linux",
+    "rag-poc": "linux",
+    "ubuntu-template": "linux",
+    "10.30.50.132": "linux",
+    "eb-rag-dev-nd01": "linux",
+    "ubuntu": "linux",
+    "10.30.50.138": "linux",
+    "ai-demo-nd01": "linux",
+    "vpn": "linux"
+  },
+  // ============================================================
+  // KUBERNETES
+  // ============================================================
+  "vs-kubernetes": {
+    "vscode-kubernetes.helm-path-linux": "/home/badr/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
+    "vs-kubernetes.knownKubeconfigs": [
+      "/home/badr/project/nginx-deployment.yaml"
+    ],
+    "vs-kubernetes.kubeconfig": "/home/badr/project/nginx-deployment.yaml"
+  },
+  "markdown.extension.preview.autoShowPreviewToSide": true,
+  "markdown.extension.theming.decoration.renderTrailingSpace": true,
+  "workbench.colorTheme": "Everforest Custom",
+  "markdown-preview-enhanced.enablePreviewZenMode": false,
+  "markdown-preview-enhanced.codeBlockTheme": "dark.css",
+  "markdown-preview-enhanced.previewTheme": "night.css",
+  "git.autofetch": true,
+  "animations.Install-Method": "Apc Customize UI++",
+  "apc.imports": [
+    "file:///c:/Users/rahbi/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+  ],
+}
